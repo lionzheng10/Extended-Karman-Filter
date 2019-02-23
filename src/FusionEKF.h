@@ -31,12 +31,16 @@ public:
   */
   KalmanFilter ekf_;
 
-private:
   // check whether the tracking toolbox was initialized or not (first measurement)
   bool is_initialized_;
 
+private:
+
   // previous timestamp
   long long previous_timestamp_;
+
+  float noise_ax;
+  float noise_ay;
 
   // tool object used to compute Jacobian and RMSE
   Tools tools;
