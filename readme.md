@@ -21,7 +21,7 @@ So, this is the options
 1) windows7 professinal + vmware(ubuntu), not work
 2) windows7 professinal + docker, not work
 3) pure ubuntu, it works
-... I haven't test
+
 
 So, this is the suggestion, if you are using windows7. Don't try anything on it. It will waste your time.
 **Buy a computer or borrow a computer, then install ubuntu** (16.4 is the version use)
