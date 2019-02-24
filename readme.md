@@ -10,7 +10,7 @@ The following gif picture is record from the simulator.
 - Red circle: laser measurement
 - Green circle : EKF estimated position
 
-![](./img/video.gif)
+<img src="./img/video.gif" width = "80%">
 
 ### 1.Create the enviroment for carnd-term2
 
@@ -125,7 +125,7 @@ Your downloaded Haroopad package could be an deb package. How to install an deb 
 
 ## 4.Data Flow
 
-<img src="./img/Kalman-filter-overview.png" width="500">
+<img src="./img/Kalman-filter-overview.png" width = "80%">
 
 1) The measuremennt processor/matlab simulator is generating the FUSION .txt file:
 	"data/obj_pose-laser-radar-synthetic-ukf-input.txt";
@@ -230,12 +230,9 @@ Download the simulator again. Maybe the simulator is crash.
 
 ## 9. Analyze the Output data.
 The analyze can be see in the **build/analyz_log_file.ipynb**. You can use jupyter notebook to open it.
-
-
-<img src="./img/RMSE.png" width="500">
 This picture is the compare of RMSE. Obviously, the error is **radar > lidar > fusion.**
 
-<img src="./img/RMSE.png" width="500">
+<img src="./img/RMSE.png" width = "80%">
 From the car trace, we also could find that the error is **radar > lidar > fusion.**
 
 ## Outro
